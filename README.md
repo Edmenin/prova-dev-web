@@ -42,36 +42,7 @@ npm run dev
 
 4. Acesse a aplicação em `http://localhost:5173`
 
-## Estrutura do Projeto
-
-```
-src/
-  ├── pages/
-  │   ├── Posts.tsx
-  │   └── PostDetails.tsx
-  ├── App.tsx
-  └── main.tsx
-```
-
 ## Rotas
 
 - `/post` - Lista de posts
 - `/dados/:id` - Detalhes do post específico
-
-## Desenvolvimento
-
-Para iniciar o servidor de desenvolvimento:
-
-```bash
-npm run dev
-```
-
-Para criar uma build de produção:
-
-```bash
-npm run build
-```
-
-## Licença
-
-Este projeto está sob a licença MIT.
