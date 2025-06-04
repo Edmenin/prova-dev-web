@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, CssBaseline, Container } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import Posts from './pages/Posts';
@@ -27,8 +27,8 @@ function App() {
       <Router>
         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
           <Routes>
-            <Route path="/" element={<Posts />} />
-            <Route path="/post" element={<Posts />} />
+            <Route path="/" element={<Navigate to="/posts" replace />} />
+            <Route path="/posts" element={<Posts />} />
             <Route path="/dados/:id" element={<PostDetails />} />
           </Routes>
         </Container>
