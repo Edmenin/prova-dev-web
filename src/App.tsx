@@ -28,7 +28,7 @@ function App() {
         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
           <Routes>
             <Route path="/" element={<Posts />} />
-            <Route path="/post" element={<Posts />} />
+            <Route path="/posts" element={<Posts />} />
             <Route path="/dados/:id" element={<PostDetails />} />
           </Routes>
         </Container>

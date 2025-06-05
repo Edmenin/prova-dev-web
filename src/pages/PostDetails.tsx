@@ -56,7 +56,7 @@ function PostDetailsPage() {
     <PostDetails
       post={post}
       user={user}
-      onBack={() => navigate('/post')}
+      onBack={() => navigate('/posts')}
     />
   );
 }
