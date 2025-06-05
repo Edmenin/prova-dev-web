@@ -4,7 +4,7 @@ Esta é uma aplicação React que exibe uma lista de posts e seus detalhes, cons
 
 ## Funcionalidades
 
-- Lista de posts na rota `/post`
+- Lista de posts na rota `/posts`
 - Detalhes do post na rota `/dados/:id`
 - Interface moderna e responsiva usando Material UI
 - Navegação entre páginas
@@ -44,5 +44,5 @@ npm run dev
 
 ## Rotas
 
-- `/post` - Lista de posts
+- `/posts` - Lista de posts
 - `/dados/:id` - Detalhes do post específico
